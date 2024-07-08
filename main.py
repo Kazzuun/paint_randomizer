@@ -5,6 +5,7 @@ import sys
 import time
 from typing import Literal
 
+from dotenv import load_dotenv
 import requests
 
 
@@ -101,4 +102,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    load_dotenv()
     main()
